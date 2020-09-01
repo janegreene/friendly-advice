@@ -16,6 +16,7 @@ gem 'turbolinks', '~> 5'
 gem 'bootstrap', '~> 4.4.1'
 gem 'bootsnap'
 gem 'faraday'
+gem 'figaro'
 gem 'bcrypt'
 
 group :development, :test do
@@ -28,8 +29,8 @@ group :test do
   gem 'launchy'
   gem 'simplecov'
   gem 'shoulda-matchers'
-  gem 'webmock'
-  gem 'vcr'
+  # gem 'webmock'
+  # gem 'vcr'
 end
 
 group :development do
